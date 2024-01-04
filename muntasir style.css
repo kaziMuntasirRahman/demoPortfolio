@@ -1,0 +1,323 @@
+body{
+    background-color:rgb(25, 150, 170);
+    font-family:Arial;
+    margin:0px;
+}
+
+body img{
+    box-shadow: 30px 30px 50px rgb(58, 55, 55);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+/*1st Step:Menu*/
+#Menu{
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    height:70px;
+}
+#Menu img{
+    margin-left:10%;
+    margin-right:5px;
+    width:40px;
+    height:40px;
+    border-radius:500px;
+}
+
+#Menu h1{
+    font-size:35px;
+    font-weight:lighter;
+    margin-right:10%;
+    text-shadow:0.5px 0.5px 0.5px rgb(62, 14, 93);
+
+}
+
+#Menu h3 a{
+    font-family:constantia;
+    font-size:25px;
+    margin-right:15px;
+    margin-left:15px;
+    color:rgb(255, 255, 255);
+    text-shadow:1px 1px 1px black;
+    text-decoration:none;
+}
+
+#Menu h3 a:hover{
+    text-shadow:3px 3px 3px black;
+    transition:all 0.5s;
+}
+
+#Menu h1:hover{
+    text-shadow:1px 1px 1px rgb(62, 14, 93);
+    transition:all 0.5s;
+}
+
+/*-----------------Intro------------*/
+#Intro{
+    background-color:rgba(0, 0, 0, 0.89);
+    border-radius:200px;
+    text-align:center;
+    padding:300px;
+    color:white;
+}
+
+#Intro h1{
+    font-size:50px;
+    color:white;
+    padding:40px;
+    text-shadow: 1px 1px 1px greenyellow;
+}
+
+#Intro h1 a{
+    color:white;
+    text-decoration:none;
+}
+
+#Intro h2{
+    font-size:30px;
+    font-weight:lighter;
+    color:rgb(25, 150, 170);
+}
+
+/*--------------About----------*/
+#About{
+    padding-bottom:10%;
+}
+
+#About h1{
+    text-align:center;
+    font-size:40px;
+}
+
+#about{
+    display:flex;
+    padding-right:20%;
+    padding-left:20%;
+    align-items:center;
+    
+}
+
+#about div{
+    height:500px;
+    width:600px;
+    margin:auto;
+}
+
+#about img{
+    margin-top:10%;
+    border-top-left-radius:160px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:160px;
+    box-shadow: 5px 5px 10px rgb(58, 55, 55);
+    filter:blur(4px);
+    transition:ease-out 1s;
+}
+
+#about img:hover{
+    border-top-left-radius:100px;
+    border-bottom-right-radius:100px;
+    filter: blur();
+    box-shadow: 50px 50px 50px rgb(58, 55, 55);
+}
+
+#about h2{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+#about h3{
+    color:rgb(241, 115, 56);
+    font-size:25px;
+    font-weight:lighter;
+    text-shadow:1px 1px 1px black;
+}
+
+#about p{
+    color:rgb(0, 0, 0);
+    font-size:22px;
+    text-align:justify;
+    font-family:cambria;
+    text-shadow:1px 1px 1px rgb(133, 43, 8);
+}
+
+/*----------skills--------------*/
+#Skills{
+    background-color:rgba(255, 255, 255, 0.384);
+    border-radius:100px;
+    padding:5%;
+}
+
+
+#Skills H1{
+    font-size:40px;
+    text-align:center;
+    text-decoration:none;
+}
+
+#images{
+    padding:6%;
+    display:inline-flex;
+    align-items:center;
+    width:80%;
+}
+
+#images img{
+    width:400px;
+    margin:auto;
+    border-radius:10px;
+}
+
+/*-----------Education--------*/
+#Education{
+    background-color:black;
+    padding:5%;
+    margin:0px;
+}
+
+#Education h1{
+    text-align:center;
+    color:orange;
+    font-size:40px;
+}
+
+#education{
+    align-items:center;
+    display:flex;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+#education div{
+    height:500px;
+    align-items:center;
+    margin-right:2%;
+    margin-left:2%;
+    color:white;
+}
+
+#education h1{
+    font-size:30px;
+    color:white;
+    padding:60px;
+}
+
+
+/*------------Achievements-----------*/
+#Achievements{
+    background-color:rgb(130, 248, 146);
+    padding:5%;
+    border-radius:100px;
+    color:black;
+    box-shadow: 30px 30px 50px rgb(58, 55, 55);
+}
+
+#Achievements table tr{
+    font-family:comic sans ms;
+    font-size:25px;
+    text-shadow:1px 1px 1px rgb(133, 8, 8);
+    margin:auto;
+}
+
+#Achievements table caption{
+    font-size:35px;
+    padding:3%;
+    padding-top:0px;
+    font-weight:bold;
+}
+
+#Achievements img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+
+}
+
+/*--------------Image----------*/
+#holder{
+        width:100%;
+        background-color:black;
+}
+
+.continer {
+    background-color:#00ba9b;
+    position:relative;
+    width: 25%;
+    margin:auto;
+    border-radius:30px;
+}
+
+.image{
+    border-radius:30px;
+    display: block;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #00ba9b;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+    .continer:hover .overlay {
+    border-radius:30px;
+    height: 100%;
+}
+
+.text {
+    color: black;
+    font-size: 40px;
+    font-family:constantia;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*--------------Footer----------*/
+#footer{
+    width:100%;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size:20px;
+    align-items:center;
+    font-family:imprint mt shadow;
+    font-weight:bold;
+    display:flex;
+}
+
+#footer table{
+    padding-right:50%;
+    padding-left:7%;
+}
+
+#footer table tr td img{
+    height:30px;
+    vertical-align:text-bottom;
+    padding:0px;
+    box-shadow: 0px 0px 0px rgb(58, 55, 55);
+}
+
+#footer div{
+    height:50px;
+    width:50px;
+}
+
+#footer div img{
+    height:40px;
+    align-items:right;
+    padding:2.5%;
+    box-shadow: 0px 0px 0px rgb(58, 55, 55);
+}
